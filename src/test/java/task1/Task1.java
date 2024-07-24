@@ -69,7 +69,7 @@ public class Task1 {
         //Select “EST-20” item and “Add to Cart”
         driver.findElement(By.xpath("//a[@href='/actions/Cart.action?addItemToCart=&workingItemId=EST-20']")).click();
 
-        //Click “Fish” module
+        //Click “Fish” modulep
         driver.findElement(By.xpath("//img[@src='../images/sm_fish.gif']")).click();
 
         //Click productID “FI-SW-01 Angelfish”
